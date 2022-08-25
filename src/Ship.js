@@ -3,6 +3,10 @@ function Ship(port) {
     this.passengers = 0;
 }
 
+Ship.prototype.setSail = function () {
+    this.startingPort = false;
+}
+
 Ship.prototype.addPassenger = function () {
     this.passengers++;
 }
